@@ -9,7 +9,7 @@ const authMiddleWare = require("./middleware/auth.js");
 const app = express();
 
 const connectDb = async()=>{
-    await mongoose.connect("mongodb+srv://gauravkadam9044:Pass123@cluster0.nt0figi.mongodb.net/");
+    await mongoose.connect("mongodb+srv://gauravkadam9353:eYM2NKk5nS9i6Aly@cluster0.6ekipxz.mongodb.net/");
     // await mongoose.connect("mongodb://127.0.0.1:27017/evnt_mngt");
 }
 
@@ -29,3 +29,8 @@ app.listen(port,()=>{
 
 // mongodb+srv://gauravkadam9044:Pass123@cluster0.nt0figi.mongodb.net/
 
+// eYM2NKk5nS9i6Aly
+
+// mongodb+srv://gauravkadam9353:eYM2NKk5nS9i6Aly@cluster0.6ekipxz.mongodb.net/
+
+// mongodb+srv://gauravkadam9353:eYM2NKk5nS9i6Aly@cluster0.6ekipxz.mongodb.net/
